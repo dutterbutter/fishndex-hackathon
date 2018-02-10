@@ -20,18 +20,20 @@ admin.initializeApp({
 });
 
 app.post('/fish-detection'), (req, res) => {
+    console.log("g")
     const image = {
         source: { imageUri: req.body.downloadURL }
     }
 
     client.labelDetection(image)
         .then(response => {
-            let fishData = response.data
+            console.log('h')
+            let fishData = response[0].data
             res.send(fishData)
         })
         .catch(err => {
-            console.log(err)
-            res.se
+            console.log("this is an error", err)
+            res.sendStatus(500).send("We have encountered an error");
         })
 }
 
