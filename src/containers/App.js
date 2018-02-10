@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import Deploy from '../keys.js';
 import * as firebase from 'firebase';
 import axios from 'axios'
+
+import Deploy from '../keys.js';
 import './App.css';
-import Camera from 'react-camera';
+import GoodCamera from '../components/camera';
 
 class App extends Component {
   constructor() {
@@ -50,7 +51,7 @@ class App extends Component {
     return (
       <div>
         fish dex 
-        <Camera/>
+        <GoodCamera/>
       </div>
     );
   }
