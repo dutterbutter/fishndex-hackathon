@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Deploy from './keys.js';
+import Deploy from '../keys.js';
+import * as firebase from 'firebase';
+import axios from 'axios'
 import './App.css';
 
 class App extends Component {
@@ -46,7 +48,7 @@ class App extends Component {
 
     return (
       <div>
-
+        fish dex 
       </div>
     );
   }

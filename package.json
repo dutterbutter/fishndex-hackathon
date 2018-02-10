@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@google-cloud/vision": "^0.15.0",
+    "axios": "^0.17.1",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "firebase": "^4.9.1",
