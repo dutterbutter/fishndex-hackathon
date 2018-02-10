@@ -37,12 +37,15 @@ class App extends Component {
         axios.post('http://localhost:8080/fish-detection', { downloadURL })
           .then(result => {
             let fishData = result.data;
-            let fishCopy = [...fishData];
+            let fishCopy = Array.from(fishData);
+            fishCopy.push(fishData)
 
             this.setState({
               fishData: fishCopy
             })
+            console.log(this.state.fishData)
           })
+          
       })
       console.log("Done. Enjoy.")
   }

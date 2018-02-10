@@ -28,10 +28,8 @@ app.post('/fish-detection', (req, res) => {
 
     client.labelDetection(image.source.imageUri)
         .then(response => {
-            const labels = response[0].labelAnnotations
-            // let fishData = response[0].data
-            console.log(labels);
-            res.send(labels)
+            const result = response[0].labelAnnotations
+            res.send(result)
         })
         .catch(err => {
             console.log("this is an error", err)
