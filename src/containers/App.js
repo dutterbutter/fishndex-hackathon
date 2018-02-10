@@ -3,6 +3,7 @@ import Deploy from '../keys.js';
 import * as firebase from 'firebase';
 import axios from 'axios'
 import './App.css';
+import Camera from 'react-camera';
 
 class App extends Component {
   constructor() {
@@ -49,6 +50,7 @@ class App extends Component {
     return (
       <div>
         fish dex 
+        <Camera/>
       </div>
     );
   }
