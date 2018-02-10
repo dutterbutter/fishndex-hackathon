@@ -10,7 +10,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      fishData: []
+      fishData: [],
     }
     const config = Deploy.configFire;
     firebase.initializeApp(config);
@@ -44,6 +44,7 @@ class App extends Component {
             })
           })
       })
+      console.log("Done. Enjoy.")
   }
 
   render() {
@@ -51,8 +52,7 @@ class App extends Component {
     return (
       <div>
         fish dex 
-        <GoodCamera/>
-        {/* <Camera/> */}
+        <GoodCamera visionUploaderHandler = {this.visionUploadHandler}/>
       </div>
     );
   }
