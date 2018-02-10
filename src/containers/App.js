@@ -3,7 +3,7 @@ import * as firebase from 'firebase';
 import axios from 'axios'
 
 
-import ButtonCamera from '../components/cameraButton';
+import ButtonCamera from '../components/ButtonCamera';
 
 import Deploy from '../keys.js';
 import './App.css';
