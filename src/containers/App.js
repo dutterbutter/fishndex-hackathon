@@ -50,7 +50,7 @@ class App extends Component {
     return (
       <div>
         fish dex 
-        <Camera/>
+        {/* <Camera/> */}
       </div>
     );
   }
