@@ -12,7 +12,7 @@ class App extends Component {
     }
     const config = Deploy.configFire;
     firebase.initializeApp(config);
-    // this.detectmob = this.detectmob.bind(this)
+    
   }
 
   //we need to pass the BLOB (img) to this function
