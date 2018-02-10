@@ -52,6 +52,7 @@ class App extends Component {
       <div>
         fish dex 
         <GoodCamera/>
+        {/* <Camera/> */}
       </div>
     );
   }

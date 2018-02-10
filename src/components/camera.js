@@ -43,7 +43,7 @@ export default class GoodCamera extends Component {
 const style = {
   preview: {
     position: 'relative',
-    width: '25%',
+    width: '200px',
     height: '50%',
   },
   captureContainer: {
