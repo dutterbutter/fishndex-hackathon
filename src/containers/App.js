@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import * as firebase from 'firebase';
 import axios from 'axios'
 
+
+import ButtonCamera from '../components/cameraButton';
+
 import Deploy from '../keys.js';
 import './App.css';
 import GoodCamera from '../components/camera';
@@ -14,7 +17,7 @@ class App extends Component {
     }
     const config = Deploy.configFire;
     firebase.initializeApp(config);
-    
+
   }
 
   //we need to pass the BLOB (img) to this function
@@ -44,16 +47,20 @@ class App extends Component {
             })
           })
       })
-      console.log("Done. Enjoy.")
+    console.log("Done. Enjoy.")
   }
 
   render() {
 
     return (
-      <div>
-        fish dex 
-        <GoodCamera visionUploaderHandler = {this.visionUploadHandler}/>
-      </div>
+      <div className="container-fluid">
+        <div className="d-flex flex-row">
+          fish dex
+          </div>
+          <div className="d-flex justify-contents-center align-items-center border "> center this thing</div>
+        <GoodCamera visionUploaderHandler={this.visionUploadHandler} />
+          <ButtonCamera className="mt-auto p-2"/>
+        </div>
     );
   }
 }
