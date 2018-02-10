@@ -11,10 +11,10 @@ export default class GoodCamera extends Component {
   takePicture() {
     this.camera.capture()
     .then(blob => {
-      console.log(blob);
+      
       this.props.visionUploaderHandler(blob);
       this.img.src = URL.createObjectURL(blob);
-      console.log(this.img.src);
+     
       this.img.onload = () => { URL.revokeObjectURL(this.src); }
   
     })

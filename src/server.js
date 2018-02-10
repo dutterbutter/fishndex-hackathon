@@ -30,6 +30,7 @@ app.post('/fish-detection', (req, res) => {
         .then(response => {
             const labels = response[0].labelAnnotations
             // let fishData = response[0].data
+            console.log(labels);
             res.send(labels)
         })
         .catch(err => {
