@@ -1,13 +1,13 @@
 require('dotenv').config()
 const express = require('express');
-const vision = require('@google-cloud/vision');
-const firebase = require('firebase')
-const client = new vision.ImageAnnotatorClient();
-const cors = require('cors');
-const PORT = process.env.PORT || 8080
-const admin = require("firebase-admin")
-const deploy = require('./keys.js');
-const serviceAccount = require("/Users/dustinbrickwood/Documents/fishdex-hackathon-firebase-adminsdk-dcits-1cd90a6f14.json")
+const Vision  = require('@google-cloud/vision');
+const vision  = new Vision(); //Creates a client
+const cors    = require('cors');
+const PORT    = process.env.PORT || 8080 
+const admin   = require("firebase-admin")
+const deploy = require('./src/keys.js');
+const storage = firebase.storage();
+const serviceAccount = require("../fishdex-hackathon-firebase-adminsdk-dcits-1cd90a6f14.json")
 
 app = express()
 app.use(cors());
