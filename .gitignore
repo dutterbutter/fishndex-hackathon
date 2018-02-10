@@ -2,14 +2,9 @@
 
 # dependencies
 /node_modules
-
-# testing
 /coverage
-
-# production
 /build
-
-# misc
+/src/keys.js
 .DS_Store
 .env.local
 .env.development.local
@@ -20,4 +15,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-fishdex-hackathon-firebase-adminsdk-dcits-1cd90a6f14.json
+fishdex-hackathon-firebase-adminsdk-dcits-8a120b02d7.json
