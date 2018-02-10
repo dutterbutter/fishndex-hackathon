@@ -1,5 +1,6 @@
 const express = require('express');
 const Vision  = require('@google-cloud/vision');
+const firebase = require('firebase')
 const vision  = new Vision(); //Creates a client
 const cors    = require('cors');
 const PORT    = process.env.PORT || 8080 
@@ -23,7 +24,7 @@ app.post('/fish-detection'), (req, res) => {
         source: { imageUri: req.body.downloadURL }
     }
 
-    vision.labelDetection(image)
+    vision.webDetection(image)
         .then(response => {
             let fishData = response.data
             res.send(fishData)
