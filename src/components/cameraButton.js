@@ -1,47 +1,60 @@
-import React from 'react';
-import IconButton from 'material-ui/IconButton';
-import ActionCameraEnhance from 'material-ui/svg-icons/action/camera-enhance';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-const styles = {
-  smallIcon: {
-    width: 36,
-    height: 36,
-  },
-  mediumIcon: {
-    width: 48,
-    height: 48,
-  },
-  largeIcon: {
-    width: 60,
-    height: 60,
-  },
-  small: {
-    width: 72,
-    height: 72,
-    padding: 16,
-  },
-  medium: {
-    width: 96,
-    height: 96,
-    padding: 24,
-  },
-  large: {
-    width: 120,
-    height: 120,
-    padding: 30,
-  },
+class Camera extends Component {
+
+  componentWillMount() {
+    const { video, audio } = this.props;
+    if (navigator.mediaDevices) {
+      navigator.mediaDevices.getUserMedia({ video, audio })
+      .then((mediaStream) => {
+        this.setState({ mediaStream });
+        this.video.srcObject = mediaStream;
+        this.video.play();
+      })
+      .catch(error => error);
+    }
+  }
+
+  capture() {
+    const mediaStreamTrack = this.state.mediaStream.getVideoTracks()[0];
+    const imageCapture = new window.ImageCapture(mediaStreamTrack);
+
+    return imageCapture.takePhoto();
+  }
+
+  render() {
+    return (
+      <div style={this.props.style}>
+        { this.props.children }
+        <video style={styles.base} ref={(video) => { this.video = video; }} />
+      </div>
+    );
+  }
+}
+
+Camera.propTypes = {
+  audio: PropTypes.bool,
+  video: PropTypes.bool,
+  children: PropTypes.element,
+  style: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ])
 };
 
-const ButtonCamera = () => (
-  <div>
-    <IconButton
-      iconStyle={styles.smallIcon}
-      style={styles.small}
-    >
-      <ActionCameraEnhance />
+Camera.defaultProps = {
+  audio: false,
+  video: true,
+  style: {},
+  children: null
+};
 
-    </IconButton>
-  </div>
-);
+export default Camera;
 
-export default ButtonCamera;
+const styles = {
+  base: {
+    width: '100%',
+    height: '100%'
+  }
+};

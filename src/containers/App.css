@@ -2,9 +2,29 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.camera-activate{
+  margin-top: 115%;
+  margin-right: 15%;
+  float:right;
+}
+
+.btn{
+  border-radius: 45%;
+  font-size: 16px;
+  height: 50px;
+}
+.file-field .btn, .file-field .btn-large{
+  height: 5rem;
+}
+
+.btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i{
+  font-size: 2.1rem;
+  margin-top: 50%;
+}
+
+.inputTest{
+  color: transparent;
+  opacity: 0;
 }
 
 .App-header {
