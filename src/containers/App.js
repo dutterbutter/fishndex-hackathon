@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import * as firebase from 'firebase';
 import axios from 'axios'
 
-
-import ButtonCamera from '../components/cameraButton';
-
 import Deploy from '../keys.js';
 import './App.css';
-import GoodCamera from '../components/camera';
+import MobileCamera from '../components/MobileCamera';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+import Home from '../components/Home';
+
 
 class App extends Component {
   constructor() {
@@ -48,7 +48,6 @@ class App extends Component {
             })
             console.log(this.state.fishData)
           })
-          
       })
     console.log("Done. Enjoy.")
   }
@@ -56,14 +55,19 @@ class App extends Component {
   render() {
 
     return (
-      <div className="container-fluid">
-        <div className="d-flex flex-row">
-          fish dex
-          </div>
-          <div className="d-flex justify-contents-center align-items-center border "> center this thing</div>
-        <GoodCamera visionUploaderHandler={this.visionUploadHandler} />
-          <ButtonCamera className="mt-auto p-2"/>
+
+      <BrowserRouter>
+
+        <div className="container-fluid">
+          <Route path='/' exact render={({ match }) =>
+            <Home />} />
+            
+          {/* <Route path='/fish-detector' render={({ match }) =>
+            <MobileCamera />}
+          /> */}
         </div>
+
+      </BrowserRouter>
     );
   }
 }
