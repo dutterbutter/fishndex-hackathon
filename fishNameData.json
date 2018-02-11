@@ -1,0 +1,1094 @@
+[
+ {
+   "FIELD1": "s_id",
+   "FIELD2": "s_name"
+ },
+ {
+   "FIELD1": "1",
+   "FIELD2": "Alligator Gar"
+ },
+ {
+   "FIELD1": "2",
+   "FIELD2": "Almaco Jack"
+ },
+ {
+   "FIELD1": "3",
+   "FIELD2": "American Eel"
+ },
+ {
+   "FIELD1": "4",
+   "FIELD2": "American Shad"
+ },
+ {
+   "FIELD1": "5",
+   "FIELD2": "Apache Trout"
+ },
+ {
+   "FIELD1": "6",
+   "FIELD2": "Arctic Char"
+ },
+ {
+   "FIELD1": "7",
+   "FIELD2": "Arctic Grayling"
+ },
+ {
+   "FIELD1": "8",
+   "FIELD2": "Atlantic Bonito"
+ },
+ {
+   "FIELD1": "9",
+   "FIELD2": "Atlantic Cod"
+ },
+ {
+   "FIELD1": "10",
+   "FIELD2": "Atlantic Croaker"
+ },
+ {
+   "FIELD1": "11",
+   "FIELD2": "Atlantic Halibut"
+ },
+ {
+   "FIELD1": "12",
+   "FIELD2": "Atlantic Salmon"
+ },
+ {
+   "FIELD1": "13",
+   "FIELD2": "Atlantic Spadefish"
+ },
+ {
+   "FIELD1": "14",
+   "FIELD2": "Bigeye Trevally"
+ },
+ {
+   "FIELD1": "15",
+   "FIELD2": "Bigeye Tuna"
+ },
+ {
+   "FIELD1": "16",
+   "FIELD2": "Bigmouth Buffalo"
+ },
+ {
+   "FIELD1": "17",
+   "FIELD2": "Black Bullhead"
+ },
+ {
+   "FIELD1": "18",
+   "FIELD2": "Black Crappie"
+ },
+ {
+   "FIELD1": "19",
+   "FIELD2": "Black Drum"
+ },
+ {
+   "FIELD1": "20",
+   "FIELD2": "Black Grouper"
+ },
+ {
+   "FIELD1": "21",
+   "FIELD2": "Black Marlin"
+ },
+ {
+   "FIELD1": "22",
+   "FIELD2": "Black Sea Bass"
+ },
+ {
+   "FIELD1": "23",
+   "FIELD2": "Black Skipjack"
+ },
+ {
+   "FIELD1": "24",
+   "FIELD2": "Blackfin Tuna"
+ },
+ {
+   "FIELD1": "25",
+   "FIELD2": "Blacktip Shark"
+ },
+ {
+   "FIELD1": "26",
+   "FIELD2": "Blue Catfish"
+ },
+ {
+   "FIELD1": "27",
+   "FIELD2": "Blue Marlin"
+ },
+ {
+   "FIELD1": "28",
+   "FIELD2": "Blue Shark"
+ },
+ {
+   "FIELD1": "29",
+   "FIELD2": "Bluefin Trevally"
+ },
+ {
+   "FIELD1": "30",
+   "FIELD2": "Bluefin Tuna"
+ },
+ {
+   "FIELD1": "31",
+   "FIELD2": "Bluefish"
+ },
+ {
+   "FIELD1": "32",
+   "FIELD2": "Bluegill"
+ },
+ {
+   "FIELD1": "33",
+   "FIELD2": "Bonefish"
+ },
+ {
+   "FIELD1": "34",
+   "FIELD2": "Bonnethead Shark"
+ },
+ {
+   "FIELD1": "35",
+   "FIELD2": "Bowfin"
+ },
+ {
+   "FIELD1": "36",
+   "FIELD2": "Brook Trout"
+ },
+ {
+   "FIELD1": "37",
+   "FIELD2": "Broomtail Grouper"
+ },
+ {
+   "FIELD1": "38",
+   "FIELD2": "Brown Bullhead"
+ },
+ {
+   "FIELD1": "39",
+   "FIELD2": "Brown Trout"
+ },
+ {
+   "FIELD1": "40",
+   "FIELD2": "Bull Trout"
+ },
+ {
+   "FIELD1": "41",
+   "FIELD2": "Burbot"
+ },
+ {
+   "FIELD1": "42",
+   "FIELD2": "Butterfly Peacock Bass"
+ },
+ {
+   "FIELD1": "43",
+   "FIELD2": "California Corbina"
+ },
+ {
+   "FIELD1": "44",
+   "FIELD2": "California Halibut"
+ },
+ {
+   "FIELD1": "45",
+   "FIELD2": "California Yellowtail"
+ },
+ {
+   "FIELD1": "46",
+   "FIELD2": "Cero Mackerel"
+ },
+ {
+   "FIELD1": "47",
+   "FIELD2": "Chain Pickerel"
+ },
+ {
+   "FIELD1": "48",
+   "FIELD2": "Channel Catfish"
+ },
+ {
+   "FIELD1": "49",
+   "FIELD2": "Chum Salmon"
+ },
+ {
+   "FIELD1": "50",
+   "FIELD2": "Cobia"
+ },
+ {
+   "FIELD1": "51",
+   "FIELD2": "Coho Salmon"
+ },
+ {
+   "FIELD1": "52",
+   "FIELD2": "Common Carp"
+ },
+ {
+   "FIELD1": "53",
+   "FIELD2": "Conger"
+ },
+ {
+   "FIELD1": "54",
+   "FIELD2": "Crevalle Jack"
+ },
+ {
+   "FIELD1": "55",
+   "FIELD2": "Cubera Snapper"
+ },
+ {
+   "FIELD1": "56",
+   "FIELD2": "Cutthroat Trout"
+ },
+ {
+   "FIELD1": "57",
+   "FIELD2": "Dogtooth Tuna"
+ },
+ {
+   "FIELD1": "58",
+   "FIELD2": "Dolly Varden"
+ },
+ {
+   "FIELD1": "59",
+   "FIELD2": "Dolphinfish"
+ },
+ {
+   "FIELD1": "60",
+   "FIELD2": "Flathead Catfish"
+ },
+ {
+   "FIELD1": "61",
+   "FIELD2": "Florida Gar"
+ },
+ {
+   "FIELD1": "62",
+   "FIELD2": "Flounder"
+ },
+ {
+   "FIELD1": "63",
+   "FIELD2": "Freshwater Drum"
+ },
+ {
+   "FIELD1": "64",
+   "FIELD2": "Gag Grouper"
+ },
+ {
+   "FIELD1": "65",
+   "FIELD2": "Giant Trevally"
+ },
+ {
+   "FIELD1": "66",
+   "FIELD2": "Golden Trout"
+ },
+ {
+   "FIELD1": "67",
+   "FIELD2": "Grass Carp"
+ },
+ {
+   "FIELD1": "68",
+   "FIELD2": "Great Barracuda"
+ },
+ {
+   "FIELD1": "69",
+   "FIELD2": "Greater Amberjack"
+ },
+ {
+   "FIELD1": "70",
+   "FIELD2": "Green Sunfish"
+ },
+ {
+   "FIELD1": "71",
+   "FIELD2": "Hammerhead Shark"
+ },
+ {
+   "FIELD1": "72",
+   "FIELD2": "Hogfish"
+ },
+ {
+   "FIELD1": "73",
+   "FIELD2": "Horse-eye Jack"
+ },
+ {
+   "FIELD1": "74",
+   "FIELD2": "Inconnu"
+ },
+ {
+   "FIELD1": "75",
+   "FIELD2": "Kelp Bass"
+ },
+ {
+   "FIELD1": "76",
+   "FIELD2": "King Mackerel"
+ },
+ {
+   "FIELD1": "78",
+   "FIELD2": "Ladyfish"
+ },
+ {
+   "FIELD1": "79",
+   "FIELD2": "Lake Trout"
+ },
+ {
+   "FIELD1": "80",
+   "FIELD2": "Lake Whitefish"
+ },
+ {
+   "FIELD1": "81",
+   "FIELD2": "Largemouth Bass"
+ },
+ {
+   "FIELD1": "82",
+   "FIELD2": "Lingcod"
+ },
+ {
+   "FIELD1": "83",
+   "FIELD2": "Little Tunny"
+ },
+ {
+   "FIELD1": "84",
+   "FIELD2": "Longbill Spearfish"
+ },
+ {
+   "FIELD1": "85",
+   "FIELD2": "Longnose Gar"
+ },
+ {
+   "FIELD1": "86",
+   "FIELD2": "Mako Shark"
+ },
+ {
+   "FIELD1": "87",
+   "FIELD2": "Mangrove Snapper"
+ },
+ {
+   "FIELD1": "88",
+   "FIELD2": "Mountain Whitefish"
+ },
+ {
+   "FIELD1": "89",
+   "FIELD2": "Muskellunge"
+ },
+ {
+   "FIELD1": "90",
+   "FIELD2": "Mutton Snapper"
+ },
+ {
+   "FIELD1": "91",
+   "FIELD2": "Northern Pike"
+ },
+ {
+   "FIELD1": "92",
+   "FIELD2": "Northern Pikeminnow"
+ },
+ {
+   "FIELD1": "93",
+   "FIELD2": "Oscar"
+ },
+ {
+   "FIELD1": "94",
+   "FIELD2": "Pacific Bonito"
+ },
+ {
+   "FIELD1": "95",
+   "FIELD2": "Pacific Cod"
+ },
+ {
+   "FIELD1": "96",
+   "FIELD2": "Pacific Crevalle Jack"
+ },
+ {
+   "FIELD1": "97",
+   "FIELD2": "Pacific Halibut"
+ },
+ {
+   "FIELD1": "98",
+   "FIELD2": "Pacific Sierra Mackerel"
+ },
+ {
+   "FIELD1": "99",
+   "FIELD2": "Paddlefish"
+ },
+ {
+   "FIELD1": "100",
+   "FIELD2": "Permit"
+ },
+ {
+   "FIELD1": "101",
+   "FIELD2": "Pink Salmon"
+ },
+ {
+   "FIELD1": "102",
+   "FIELD2": "Pollock"
+ },
+ {
+   "FIELD1": "103",
+   "FIELD2": "Pompano"
+ },
+ {
+   "FIELD1": "104",
+   "FIELD2": "Porbeagle Shark"
+ },
+ {
+   "FIELD1": "105",
+   "FIELD2": "Pumpkinseed Sunfish"
+ },
+ {
+   "FIELD1": "106",
+   "FIELD2": "Rainbow Runner"
+ },
+ {
+   "FIELD1": "107",
+   "FIELD2": "Rainbow Trout"
+ },
+ {
+   "FIELD1": "108",
+   "FIELD2": "Red Drum"
+ },
+ {
+   "FIELD1": "109",
+   "FIELD2": "Red Grouper"
+ },
+ {
+   "FIELD1": "110",
+   "FIELD2": "Red Snapper"
+ },
+ {
+   "FIELD1": "111",
+   "FIELD2": "Redbreast Sunfish"
+ },
+ {
+   "FIELD1": "112",
+   "FIELD2": "Redear Sunfish"
+ },
+ {
+   "FIELD1": "113",
+   "FIELD2": "Redeye Bass"
+ },
+ {
+   "FIELD1": "114",
+   "FIELD2": "Rock Bass"
+ },
+ {
+   "FIELD1": "115",
+   "FIELD2": "Round Whitefish"
+ },
+ {
+   "FIELD1": "116",
+   "FIELD2": "Sailfish"
+ },
+ {
+   "FIELD1": "117",
+   "FIELD2": "Sauger"
+ },
+ {
+   "FIELD1": "118",
+   "FIELD2": "Saugeye"
+ },
+ {
+   "FIELD1": "119",
+   "FIELD2": "Scamp Grouper"
+ },
+ {
+   "FIELD1": "120",
+   "FIELD2": "Sheepshead"
+ },
+ {
+   "FIELD1": "121",
+   "FIELD2": "Shoal Bass"
+ },
+ {
+   "FIELD1": "122",
+   "FIELD2": "Shortbill Spearfish"
+ },
+ {
+   "FIELD1": "123",
+   "FIELD2": "Shorthead Redhorse"
+ },
+ {
+   "FIELD1": "124",
+   "FIELD2": "Shortnose Gar"
+ },
+ {
+   "FIELD1": "125",
+   "FIELD2": "Silver Redhorse"
+ },
+ {
+   "FIELD1": "126",
+   "FIELD2": "Skipjack Tuna"
+ },
+ {
+   "FIELD1": "127",
+   "FIELD2": "Smallmouth Bass"
+ },
+ {
+   "FIELD1": "128",
+   "FIELD2": "Smallmouth Buffalo"
+ },
+ {
+   "FIELD1": "129",
+   "FIELD2": "Snook"
+ },
+ {
+   "FIELD1": "130",
+   "FIELD2": "Sockeye Salmon"
+ },
+ {
+   "FIELD1": "131",
+   "FIELD2": "Spanish Mackerel"
+ },
+ {
+   "FIELD1": "132",
+   "FIELD2": "Speckled Peacock Bass"
+ },
+ {
+   "FIELD1": "133",
+   "FIELD2": "Splake"
+ },
+ {
+   "FIELD1": "134",
+   "FIELD2": "Spot"
+ },
+ {
+   "FIELD1": "135",
+   "FIELD2": "Spotted Bass"
+ },
+ {
+   "FIELD1": "136",
+   "FIELD2": "Spotted Gar"
+ },
+ {
+   "FIELD1": "137",
+   "FIELD2": "Spotted Seatrout"
+ },
+ {
+   "FIELD1": "138",
+   "FIELD2": "Steelhead"
+ },
+ {
+   "FIELD1": "139",
+   "FIELD2": "Striped Bass"
+ },
+ {
+   "FIELD1": "140",
+   "FIELD2": "Striped Marlin"
+ },
+ {
+   "FIELD1": "141",
+   "FIELD2": "Sturgeon"
+ },
+ {
+   "FIELD1": "142",
+   "FIELD2": "Swordfish"
+ },
+ {
+   "FIELD1": "143",
+   "FIELD2": "Tarpon"
+ },
+ {
+   "FIELD1": "144",
+   "FIELD2": "Tautog"
+ },
+ {
+   "FIELD1": "145",
+   "FIELD2": "Thresher Shark"
+ },
+ {
+   "FIELD1": "146",
+   "FIELD2": "Tiger Muskellunge"
+ },
+ {
+   "FIELD1": "147",
+   "FIELD2": "Tiger Shark"
+ },
+ {
+   "FIELD1": "148",
+   "FIELD2": "Tiger Trout"
+ },
+ {
+   "FIELD1": "149",
+   "FIELD2": "Tope Shark"
+ },
+ {
+   "FIELD1": "150",
+   "FIELD2": "Tripletail"
+ },
+ {
+   "FIELD1": "151",
+   "FIELD2": "Wahoo"
+ },
+ {
+   "FIELD1": "152",
+   "FIELD2": "Walleye"
+ },
+ {
+   "FIELD1": "153",
+   "FIELD2": "Warmouth"
+ },
+ {
+   "FIELD1": "154",
+   "FIELD2": "Weakfish"
+ },
+ {
+   "FIELD1": "155",
+   "FIELD2": "Whalers Shark"
+ },
+ {
+   "FIELD1": "156",
+   "FIELD2": "White Bass"
+ },
+ {
+   "FIELD1": "157",
+   "FIELD2": "White Catfish"
+ },
+ {
+   "FIELD1": "158",
+   "FIELD2": "White Marlin"
+ },
+ {
+   "FIELD1": "159",
+   "FIELD2": "White Perch"
+ },
+ {
+   "FIELD1": "160",
+   "FIELD2": "White Seabass"
+ },
+ {
+   "FIELD1": "161",
+   "FIELD2": "White Shark"
+ },
+ {
+   "FIELD1": "162",
+   "FIELD2": "Whiterock Bass"
+ },
+ {
+   "FIELD1": "164",
+   "FIELD2": "Yellow Bass"
+ },
+ {
+   "FIELD1": "165",
+   "FIELD2": "Yellow Bullhead"
+ },
+ {
+   "FIELD1": "166",
+   "FIELD2": "Yellow Perch"
+ },
+ {
+   "FIELD1": "167",
+   "FIELD2": "Yelloweye Rockfish"
+ },
+ {
+   "FIELD1": "168",
+   "FIELD2": "Yellowfin Tuna"
+ },
+ {
+   "FIELD1": "169",
+   "FIELD2": "Yellowtail Snapper"
+ },
+ {
+   "FIELD1": "170",
+   "FIELD2": "African Pompano"
+ },
+ {
+   "FIELD1": "171",
+   "FIELD2": "Albacore"
+ },
+ {
+   "FIELD1": "172",
+   "FIELD2": "BallanWrasse"
+ },
+ {
+   "FIELD1": "173",
+   "FIELD2": "Barbel"
+ },
+ {
+   "FIELD1": "174",
+   "FIELD2": "Black Sea Bream"
+ },
+ {
+   "FIELD1": "175",
+   "FIELD2": "Bleak"
+ },
+ {
+   "FIELD1": "176",
+   "FIELD2": "Blonde Ray"
+ },
+ {
+   "FIELD1": "178",
+   "FIELD2": "Bream"
+ },
+ {
+   "FIELD1": "179",
+   "FIELD2": "Brill"
+ },
+ {
+   "FIELD1": "180",
+   "FIELD2": "Bull Huss"
+ },
+ {
+   "FIELD1": "181",
+   "FIELD2": "Chub"
+ },
+ {
+   "FIELD1": "182",
+   "FIELD2": "Coalfish"
+ },
+ {
+   "FIELD1": "183",
+   "FIELD2": "Conger eel"
+ },
+ {
+   "FIELD1": "184",
+   "FIELD2": "Dab"
+ },
+ {
+   "FIELD1": "185",
+   "FIELD2": "Dover Sole"
+ },
+ {
+   "FIELD1": "186",
+   "FIELD2": "Eagle Ray"
+ },
+ {
+   "FIELD1": "187",
+   "FIELD2": "Eel"
+ },
+ {
+   "FIELD1": "188",
+   "FIELD2": "Grayling"
+ },
+ {
+   "FIELD1": "189",
+   "FIELD2": "Gudgeon"
+ },
+ {
+   "FIELD1": "190",
+   "FIELD2": "Ling"
+ },
+ {
+   "FIELD1": "192",
+   "FIELD2": "Perch"
+ },
+ {
+   "FIELD1": "193",
+   "FIELD2": "Plaice"
+ },
+ {
+   "FIELD1": "194",
+   "FIELD2": "Pollack"
+ },
+ {
+   "FIELD1": "195",
+   "FIELD2": "Ray's Bream"
+ },
+ {
+   "FIELD1": "196",
+   "FIELD2": "Red Bream"
+ },
+ {
+   "FIELD1": "197",
+   "FIELD2": "Roach"
+ },
+ {
+   "FIELD1": "198",
+   "FIELD2": "Rudd"
+ },
+ {
+   "FIELD1": "199",
+   "FIELD2": "Ruffle"
+ },
+ {
+   "FIELD1": "200",
+   "FIELD2": "Silver Bream"
+ },
+ {
+   "FIELD1": "201",
+   "FIELD2": "Smooth Hound"
+ },
+ {
+   "FIELD1": "202",
+   "FIELD2": "Solenette"
+ },
+ {
+   "FIELD1": "203",
+   "FIELD2": "Spurdog"
+ },
+ {
+   "FIELD1": "204",
+   "FIELD2": "Tench"
+ },
+ {
+   "FIELD1": "205",
+   "FIELD2": "Tope"
+ },
+ {
+   "FIELD1": "206",
+   "FIELD2": "Turbot"
+ },
+ {
+   "FIELD1": "207",
+   "FIELD2": "Wels Catfish"
+ },
+ {
+   "FIELD1": "208",
+   "FIELD2": "Zander"
+ },
+ {
+   "FIELD1": "209",
+   "FIELD2": "White Crappie"
+ },
+ {
+   "FIELD1": "210",
+   "FIELD2": "Roanoke Bass"
+ },
+ {
+   "FIELD1": "212",
+   "FIELD2": "Westslope Cutthroat Trout"
+ },
+ {
+   "FIELD1": "213",
+   "FIELD2": "Suwannee Bass"
+ },
+ {
+   "FIELD1": "214",
+   "FIELD2": "Choctaw Bass"
+ },
+ {
+   "FIELD1": "215",
+   "FIELD2": "Colorado River Cutthroat Trout"
+ },
+ {
+   "FIELD1": "216",
+   "FIELD2": "Pallid Sturgeon"
+ },
+ {
+   "FIELD1": "220",
+   "FIELD2": "Palmetto Bass"
+ },
+ {
+   "FIELD1": "221",
+   "FIELD2": "Orange Spotted Sunfish"
+ },
+ {
+   "FIELD1": "222",
+   "FIELD2": "Chinook Salmon"
+ },
+ {
+   "FIELD1": "223",
+   "FIELD2": "White Sturgeon"
+ },
+ {
+   "FIELD1": "224",
+   "FIELD2": "Humpback Whitefish"
+ },
+ {
+   "FIELD1": "228",
+   "FIELD2": "Green Sturgeon"
+ },
+ {
+   "FIELD1": "229",
+   "FIELD2": "Summer Flounder"
+ },
+ {
+   "FIELD1": "232",
+   "FIELD2": "Arctic Cisco"
+ },
+ {
+   "FIELD1": "233",
+   "FIELD2": "Starry Flounder"
+ },
+ {
+   "FIELD1": "234",
+   "FIELD2": "Bonito"
+ },
+ {
+   "FIELD1": "237",
+   "FIELD2": "Redband Trout"
+ },
+ {
+   "FIELD1": "238",
+   "FIELD2": "Dolly Varden Trout"
+ },
+ {
+   "FIELD1": "240",
+   "FIELD2": "Tilapia"
+ },
+ {
+   "FIELD1": "242",
+   "FIELD2": "Shovelnose Sturgeon"
+ },
+ {
+   "FIELD1": "243",
+   "FIELD2": "Lake Sturgeon"
+ },
+ {
+   "FIELD1": "244",
+   "FIELD2": "Blue Sucker"
+ },
+ {
+   "FIELD1": "245",
+   "FIELD2": "Fallfish"
+ },
+ {
+   "FIELD1": "247",
+   "FIELD2": "Croaker"
+ },
+ {
+   "FIELD1": "249",
+   "FIELD2": "Peamouth"
+ },
+ {
+   "FIELD1": "250",
+   "FIELD2": "Palomino Trout"
+ },
+ {
+   "FIELD1": "251",
+   "FIELD2": "Snake River Cutthroat Trout"
+ },
+ {
+   "FIELD1": "253",
+   "FIELD2": "Cusk"
+ },
+ {
+   "FIELD1": "257",
+   "FIELD2": "Mackerel"
+ },
+ {
+   "FIELD1": "258",
+   "FIELD2": "Pigfish"
+ },
+ {
+   "FIELD1": "259",
+   "FIELD2": "Utah Sucker"
+ },
+ {
+   "FIELD1": "260",
+   "FIELD2": "Guadalupe Bass"
+ },
+ {
+   "FIELD1": "261",
+   "FIELD2": "Coastal Cutthroat"
+ },
+ {
+   "FIELD1": "262",
+   "FIELD2": "Grass Pickerel"
+ },
+ {
+   "FIELD1": "263",
+   "FIELD2": "Spotted Sunfish"
+ },
+ {
+   "FIELD1": "264",
+   "FIELD2": "Least Cisco"
+ },
+ {
+   "FIELD1": "265",
+   "FIELD2": "Sacramento Perch"
+ },
+ {
+   "FIELD1": "266",
+   "FIELD2": "Black Buffalo"
+ },
+ {
+   "FIELD1": "267",
+   "FIELD2": "Gila Trout"
+ },
+ {
+   "FIELD1": "269",
+   "FIELD2": "Lahontan Cutthroat Trout"
+ },
+ {
+   "FIELD1": "270",
+   "FIELD2": "Cuttbow Trout"
+ },
+ {
+   "FIELD1": "272",
+   "FIELD2": "Hardhead Catfish"
+ },
+ {
+   "FIELD1": "274",
+   "FIELD2": "Panfish"
+ },
+ {
+   "FIELD1": "275",
+   "FIELD2": "Bear River Cutthroat"
+ },
+ {
+   "FIELD1": "276",
+   "FIELD2": "Don't know"
+ },
+ {
+   "FIELD1": "277",
+   "FIELD2": "Calico Bass"
+ },
+ {
+   "FIELD1": "278",
+   "FIELD2": "Kokanee Salmon"
+ },
+ {
+   "FIELD1": "280",
+   "FIELD2": "Peacock Bass"
+ },
+ {
+   "FIELD1": "281",
+   "FIELD2": "Greenback Cutthroat"
+ },
+ {
+   "FIELD1": "282",
+   "FIELD2": "Largescale Sucker"
+ },
+ {
+   "FIELD1": "283",
+   "FIELD2": "Speckled Trout"
+ },
+ {
+   "FIELD1": "286",
+   "FIELD2": "Sunfish"
+ },
+ {
+   "FIELD1": "288",
+   "FIELD2": "Kentucky Spotted Bass"
+ },
+ {
+   "FIELD1": "290",
+   "FIELD2": "White Sucker"
+ },
+ {
+   "FIELD1": "291",
+   "FIELD2": "Northern Snakehead"
+ },
+ {
+   "FIELD1": "293",
+   "FIELD2": "Tilefish"
+ },
+ {
+   "FIELD1": "294",
+   "FIELD2": "Longear Sunfish"
+ },
+ {
+   "FIELD1": "297",
+   "FIELD2": "Common Snook"
+ },
+ {
+   "FIELD1": "299",
+   "FIELD2": "Cisco"
+ },
+ {
+   "FIELD1": "300",
+   "FIELD2": "Southern Flounder"
+ },
+ {
+   "FIELD1": "302",
+   "FIELD2": "Goldfish"
+ },
+ {
+   "FIELD1": "306",
+   "FIELD2": "Surfperch"
+ },
+ {
+   "FIELD1": "307",
+   "FIELD2": "Oyster Toadfish"
+ },
+ {
+   "FIELD1": "310",
+   "FIELD2": "Northern Sunfish"
+ },
+ {
+   "FIELD1": "314",
+   "FIELD2": "Broad Whitefish"
+ },
+ {
+   "FIELD1": "316",
+   "FIELD2": "Atlantic Sturgeon"
+ },
+ {
+   "FIELD1": "317",
+   "FIELD2": "Hybrid Striped Bass"
+ }
+]
